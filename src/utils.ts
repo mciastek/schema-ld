@@ -1,4 +1,9 @@
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const isObject = (object: any) => (
-  typeof object === 'object'
-);
+import isEmpty from 'lodash/isEmpty';
+
+import { SchemaBuilder } from './builder';
+
+export const checkIfEmpty = (output: SchemaBuilder['output']) => {
+  if (!output || isEmpty(output)) {
+    throw new Error('Schema cannot be empty!');
+  }
+};

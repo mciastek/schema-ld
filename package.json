@@ -12,9 +12,11 @@
     "test:watch": "NODE_ENV=test jest --verbose --watchAll"
   },
   "dependencies": {
+    "lodash": "^4.17.15",
     "schema-dts": "^0.5.2"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.150",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/eslint-plugin-tslint": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
