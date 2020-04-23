@@ -12,7 +12,10 @@
     },
     "plugins": [
         "@typescript-eslint",
-        "@typescript-eslint/tslint"
+        "@typescript-eslint/tslint",
+        "import",
+        "jsdoc",
+        "prefer-arrow"
     ],
     "rules": {
         "@typescript-eslint/adjacent-overload-signatures": "error",
