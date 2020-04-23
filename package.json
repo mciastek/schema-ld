@@ -1,0 +1,8 @@
+{
+  "name": "schema-ld",
+  "version": "0.0.1",
+  "description": "Simple declarative JSON-LD builder",
+  "main": "index.js",
+  "author": "Mirek Ciastek",
+  "license": "MIT"
+}
