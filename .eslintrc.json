@@ -266,16 +266,16 @@
         "spaced-comment": "error",
         "use-isnan": "error",
         "valid-typeof": "off",
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
         "@typescript-eslint/tslint/config": [
             "error",
             {
                 "rules": {
                     "import-spacing": true,
                     "no-unnecessary-callback-wrapper": true,
-                    "object-curly-spacing": [
-                        true,
-                        "always"
-                    ],
                     "one-line": [
                         true,
                         "check-catch",
