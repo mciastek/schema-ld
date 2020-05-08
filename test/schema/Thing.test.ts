@@ -14,4 +14,16 @@ describe('Thing', () => {
       validate: expect.anything(),
     });
   });
+
+  describe('validate', () => {
+    describe('when data is valid', () => {
+      it('should return true', async () => {
+        const thing = Thing({
+          name: 'Something',
+        });
+
+        await expect(thing.validate()).resolves.toBe(true);
+      });
+    });
+  });
 });

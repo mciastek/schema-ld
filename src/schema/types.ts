@@ -1,4 +1,4 @@
 export interface SchemaObject<P> {
-  validate: () => boolean;
+  validate: () => Promise<boolean>;
   data: P | null;
 };
